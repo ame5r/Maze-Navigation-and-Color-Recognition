@@ -8,10 +8,10 @@ Project: Maze Navigation and Color Recognition
 
 
 Robot Model: TurtleBot3 Burger
-[Robot](AdditionalFiles/robot.png)
+[Click here to see the robot model](AdditionalFiles/robot.png)
 
 Map:
-[Map](AdditionalFiles/map.png)  
+[Click here to see the map](AdditionalFiles/map.png)  
 Goal:  
 the goal of this mission is to navigate the turtlebot from the start of the maze to the end, while THERE IS A COLORED OBSTACLE IN FRONT OF THE EXIT, which the robot need to push to get out.  
 
@@ -38,6 +38,7 @@ the goal of this mission is to navigate the turtlebot from the start of the maze
 
 
 - Algorithm Explanation :  
+
 Step 1: Here, we use the "move_base" planner, which we give an (x,y) coordinations for the exit, and the robot start navigating to there while avoiding  
         the obstacles in its way.(more about "ROS move_base" package, in the references).  
   
@@ -77,7 +78,7 @@ Note: We used some constants in rotations and movements, because the design of t
   Note: one or more of the problems mentioned above, may make the behaviour of the robot unexpected.  
   
   
- References:  
+- References:  
     Robot Operating System (ROS): http://www.ros.org/   
     ROBOTIS TurtleBot3 Manual: http://emanual.robotis.com/docs/en/platform/turtlebot3/overview/  
     "move_base" Package: http://wiki.ros.org/move_base  
