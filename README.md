@@ -11,7 +11,7 @@ Robot Model: TurtleBot3 Burger
 [Robot](AdditionalFiles/robot.png)
 
 Map:
-[Map](AdditionalFiles/map.png)
+[Map](AdditionalFiles/map.png)  
 Goal:
 the goal of this mission is to navigate the turtlebot from the start of the maze to the end, while THERE IS A COLORED OBSTACLE IN FRONT OF THE EXIT, which the robot need to push to get out.
 
