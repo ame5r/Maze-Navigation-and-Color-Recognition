@@ -1,18 +1,18 @@
 
-Course: Topics In Robotics 191 (https://www.cs.bgu.ac.il/~toari191/Main)  
+- Course: Topics In Robotics 191 (https://www.cs.bgu.ac.il/~toari191/Main)  
         Instructors: Prof. Ronen Brafman and Mr. Shai Givati  
 
 
-Project: Maze Navigation and Color Recognition  
+- Project: Maze Navigation and Color Recognition  
          Students: Ameer abu Ganeem and Dor Tabakuli  
 
 
-Robot Model: TurtleBot3 Burger  
+- Robot Model: TurtleBot3 Burger  
 [Click here to see the robot model](AdditionalFiles/robot.png)  
 
-Map:  
+- Map:  
 [Click here to see the map](AdditionalFiles/map.png)  
-Goal:  
+- Goal:  
 the goal of this mission is to navigate the turtlebot from the start of the maze to the end, while THERE IS A COLORED OBSTACLE IN FRONT OF THE EXIT, which the robot need to push to get out.  
 
 - Our Algorithm (Overview):  
@@ -68,14 +68,14 @@ Step 2.4.5 \ 2.5.5: Renavigate to the exit, by resending the exit coordination t
 Step 2.4.6 \ 2.5.6: The execution will considered done when the planner returns "SUCCESS", that indicates that the goal has been reached and the robot arrived to the distination.  
   
   
-Note: We used some constants in rotations and movements, because the design of the maze was already, approximatly, known. You are free to use the tools installed on your robot (e.g. camera,        laser, thearmal camera, etc...) to develop a global solution.  
+- Note: We used some constants in rotations and movements, because the design of the maze was already, approximatly, known. You are free to use the tools installed on your robot (e.g. camera,laser, thearmal camera, etc...) to develop a global solution.  
   
 - Problems that may affect the performance of this algorithm:  
     1- Weak internet signal: so the data from the laser beams or the camera may arrive to the master with a delay.  
     2- Robot speed: if the robot is too fast, the master may not be able to calculate immidiatly.  
     3- Low battery: the robot computer may still on, but the motor may not work, and the data that the robot sends may not be accurate.  
     4- Wrong robot parameters (e.g. velosity, rotation speed, etc...): some parameters may not fit to the nature of the given maze.  
-  Note: one or more of the problems mentioned above, may make the behaviour of the robot unexpected.  
+- Note: one or more of the problems mentioned above, may make the behaviour of the robot unexpected.  
   
   
 - References:  
