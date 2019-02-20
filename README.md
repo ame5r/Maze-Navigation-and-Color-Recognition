@@ -18,17 +18,17 @@ the goal of this mission is to navigate the turtlebot from the start of the maze
 - Our Algorithm (Overview):  
 1- Navigate to the exit point.  
 2- When recognize the colored object:  
-    &nbsp;&nbsp;&nbsp;&nbsp;2.1- Cancel the navigation and stop  
-    &nbsp;&nbsp;&nbsp;&nbsp;2.2- Rotate until you are in front of the center of the object (approximatly).  
-    &nbsp;&nbsp;&nbsp;&nbsp;2.3- Move forward to get Closer to object.  
-    &nbsp;&nbsp;&nbsp;&nbsp;2.4- Check if the right side is wide enough to push the object from. if it is:  
+    &nbsp;&nbsp;&nbsp;2.1- Cancel the navigation and stop  
+    &nbsp;&nbsp;&nbsp;2.2- Rotate until you are in front of the center of the object (approximatly).  
+    &nbsp;&nbsp;&nbsp;2.3- Move forward to get Closer to object.  
+    &nbsp;&nbsp;&nbsp;2.4- Check if the right side is wide enough to push the object from. if it is:  
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.4.1- Move to the right side.  
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.4.2- Rotate back to the object.  
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.4.3- Start pushing the object.  
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.4.4- Go backward.  
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.4.5- Renavigate to the exit (cancelled in step 2.1).  
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.4.6- Finish.  
-    2.5-Else,Check if the left side is wide enough to push the object from:  
+    &nbsp;&nbsp;&nbsp;2.5-Else,Check if the left side is wide enough to push the object from:  
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.5.1- Move to the left side.  
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.5.2- Rotate back to the object.  
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.5.3- Start pushing the object.  
