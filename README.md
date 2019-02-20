@@ -1,16 +1,16 @@
 
-Course: Topics In Robotics 191 (https://www.cs.bgu.ac.il/~toari191/Main)
-        Instructors: Prof. Ronen Brafman and Mr. Shai Givati
+Course: Topics In Robotics 191 (https://www.cs.bgu.ac.il/~toari191/Main)  
+        Instructors: Prof. Ronen Brafman and Mr. Shai Givati  
 
 
-Project: Maze Navigation and Color Recognition
-         Students: Ameer abu Ganeem and Dor Tabakuli
+Project: Maze Navigation and Color Recognition  
+         Students: Ameer abu Ganeem and Dor Tabakuli  
 
 
-Robot Model: TurtleBot3 Burger
-[Click here to see the robot model](AdditionalFiles/robot.png)
+Robot Model: TurtleBot3 Burger  
+[Click here to see the robot model](AdditionalFiles/robot.png)  
 
-Map:
+Map:  
 [Click here to see the map](AdditionalFiles/map.png)  
 Goal:  
 the goal of this mission is to navigate the turtlebot from the start of the maze to the end, while THERE IS A COLORED OBSTACLE IN FRONT OF THE EXIT, which the robot need to push to get out.  
