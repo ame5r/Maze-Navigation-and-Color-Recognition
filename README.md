@@ -22,7 +22,7 @@ the goal of this mission is to navigate the turtlebot from the start of the maze
     2.2- Rotate until you are in front of the center of the object (approximatly).  
     2.3- Move forward to get Closer to object.  
     2.4- Check if the right side is wide enough to push the object from. if it is:  
-        2.4.1- Move to the right side.  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.4.1- Move to the right side.  
         2.4.2- Rotate back to the object.  
         2.4.3- Start pushing the object.  
         2.4.4- Go backward.  
